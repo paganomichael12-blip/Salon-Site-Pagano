@@ -77,6 +77,7 @@
             </p>
  
             <div class="feature-grid" id="featureGrid">
+                <div class=".btn"></div>
                 <!-- Feature Card 1 -->
                 <article class="feature-card">
                     <img
@@ -89,7 +90,7 @@
                 </article>
  
                 <!-- Feature Card 2 -->
-                <article class="feature-card">
+                <!-- <article class="feature-card">
                     <img
                         src="assets/images/feature-4.jpeg"
                         alt="Beard trim"
@@ -97,10 +98,10 @@
                     />
                     <h3 class="feature-title">Beard Trim</h3>
                     <p class="feature-text">Shape, line-up, and refine your beard for a clean finish.</p>
-                </article>
+                </article> -->
  
                 <!-- Feature Card 3 -->
-                <article class="feature-card">
+                <!-- <article class="feature-card">
                     <img
                         src="assets/images/feature-3.jpg"
                         alt="Straight razor shave"
@@ -108,7 +109,7 @@
                     />
                     <h3 class="feature-title">Straight Razor Shave</h3>
                     <p class="feature-text">Hot towel, smooth shave, and classic barbershop experience.</p>
-                </article>  
+                </article>   -->
             </div>
         </div>
     </section>
@@ -224,6 +225,26 @@
             </p>
         </div>
     </footer>
+
+    <!-- ===== Service Details Modal ===== -->
+    <div class="service-modal" id="serviceModal" aria-hidden="true">
+        <div class="service-modal-overlay" id="serviceModalOverlay"></div>
+ 
+        <div
+            class="service-modal-content"
+            role="dialog"
+            aria-modal="true"
+            aria-labelledby="serviceModalTitle"
+        >
+            <button class="service-modal-close" id="serviceModalClose" aria-label="Close modal">
+                ×
+            </button>
+ 
+            <h3 id="serviceModalTitle">Service Details</h3>
+            <p id="serviceModalPrice" class="service-modal-price"></p>
+            <ul id="serviceModalList" class="service-modal-list"></ul>
+        </div>
+    </div>  
  
     <!-- JS -->
     <script src="js/main.js"></script>
